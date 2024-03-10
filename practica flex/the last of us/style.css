@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Gothic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  background-color: rgba(15, 2, 2, 0.329);
+  width: 100%;
+  gap: 10px;
+}
+
+header > .logo {
+  height: 100px;
+  width: 200px;
+}
+
+header > .imagen {
+  height: 100px;
+  width: 150px;
+}
+
+header > nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  width: 100%;
+  list-style: none;
+}
+
+.screen:focus {
+  color: black;
+}
+
+.screen:hover {
+  background-color: rgba(241, 80, 80, 0.725);
+}
+
+a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+button {
+  padding: 11px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-left: 30px;
+}
+
+.container {
+  background-image: url(https://res.cloudinary.com/dewp6r3va/image/upload/v1709567505/deporte%20perros/practicas%20the%20last%20of%20us/da083fa5e19458dd750aa8a6ea30ba10bac6f87074693df5_vqzpkb.avif); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Cubre todo el contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+#info {
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  display: flex;
+  height: 70vh;
+}
+
+.juego {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 75%;
+  width: 25em;
+  margin-left: -2%;
+}
+
+#comprar:focus {
+  color: black;
+}
+
+.league_gothic {
+  font-family: 'League Gothic', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.description {
+  height: 35svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 30vw;
+  min-width: 20vw;
+}
+.god {
+  flex-shrink: 0;
+}
+
+h1 {
+  color: rgba(255, 55, 0, 0.935);
+  font-size: 143%;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.466);
+  padding: 1px;
+}
+
+p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.268);
+  padding: 15px;
+  font-size: 18px;
+}
+
+#extra-content {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 10%;
+  width: 100%;
+  flex-direction: row;
+  background-color: black;
+  height: 80vh;
+}
+.extra-article {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  gap: 2em;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  align-items: flex-start;
+  gap: 5em;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: -20%;
+}
+.card-info {
+  width: 100%;
+  margin-top: -20%;
+  object-position: center;
+}
+
+h2 {
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  margin-left: 31%;
+  margin-top: -33%;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 20px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  height: 50vh;
+  background-image: url(https://res.cloudinary.com/dewp6r3va/image/upload/v1709674696/deporte%20perros/practicas%20the%20last%20of%20us/the-last-of-us-the-last-of-us-2-ellie-the-last-of-us-tattoo-hd-wallpaper-preview_ey7c6x.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  border: 1px solid red;
+}
+
+footer > img {
+  width: 30%;
+  height: 50%;
+  margin-top: -3%;
+}
